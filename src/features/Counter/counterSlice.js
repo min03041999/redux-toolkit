@@ -18,7 +18,7 @@ const counterSlice = createSlice({
 });
 
 // dùng object destructoring lấy thông tin từ counter
-const { action, reducer } = counterSlice;
+const { actions, reducer } = counterSlice;
 
 //export dạng name
 export const { increase, decrease } = actions;
